@@ -57,3 +57,12 @@
 #     let x: Int = 555
 #     print(x)
 
+
+# # 'int8' - will occupy 8bit in your memory
+# # 'int8' can only print -128 to 127 , if you assign more that that it'll ovarload the memory and won't print the expected integer
+# fn main():
+#     let x: Int8 = -128
+#     print(x)
+
+# # Other options are 'Int16', 'Int32' and 'Int64'. Play with it.
+# # here're some refarence https://doc.embedded-wizard.de/int-type
