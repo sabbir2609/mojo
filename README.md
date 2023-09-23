@@ -20,7 +20,8 @@ This repository contains a professional text-based tutorial on the brand-new pro
 
 1. Clone this repository to your local machine.
 2. Open the `main.ipynb` notebook in Jupyter Notebook.
-3. Follow the instructions in the notebook.
+3. Select Mojo kernel
+4. Follow the instructions in the notebook.
 
 **Contact:**
 
