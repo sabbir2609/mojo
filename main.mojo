@@ -89,9 +89,18 @@
 #     print(x)
 
 
-# 'bool' -> True or False
+# # 'bool' -> True or False
+
+# fn main():
+#     let x: Bool = False
+#     print(x)
 
 
-fn main():
-    let x: Bool = 3.14
-    print(x)
+# get user input
+from python import Python
+
+fn main() raises:
+    let py = Python.import_module("builtins")
+    let user_input = py.input("Whats your name: ")
+    # print(f"{user_input}") # well, f string does't work on mojo
+    print("Your name is...", user_input)
