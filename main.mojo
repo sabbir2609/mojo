@@ -79,3 +79,19 @@
 # fn main():
 #     let x: UInt8 = 255
 #     print(x)
+
+
+# # 'Float'
+# # our choices are 'Float16', 'Float32', 'Float64'
+
+# fn main():
+#     let x: Float16 = 3.14
+#     print(x)
+
+
+# 'bool' -> True or False
+
+
+fn main():
+    let x: Bool = 3.14
+    print(x)
